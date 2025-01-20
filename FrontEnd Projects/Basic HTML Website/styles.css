@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+	font-family: Arial, sans-serif;
+}
+h1, h2, h3, footer{
+    font-family: "Indie Flower", sans-serif;
+}
+header {
+	display: flex;
+	align-items: center;
+}
+nav {
+	flex-grow: 1;
+}
+nav ul {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+img {
+	width: 40px;
+	margin-right: 10px;
+}
