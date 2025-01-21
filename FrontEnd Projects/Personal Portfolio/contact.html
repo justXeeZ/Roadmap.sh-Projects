@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="A Junior Frontend Developer Website" />
+		<meta name="keywords" content="Frontend Developer, Junior, CV, Resume, Roadmap, Roadmap.sh, Portfolio" />
+
+		<title>Basic HTML Website</title>
+		<link rel="icon" href="https://roadmap.sh/images/brand-square.png" />
+        <link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+        <header>
+			<div class="user-wrapper">
+				<img src="https://roadmap.sh/images/brand-square.png" alt="user picture" class="user-picture" />
+				<p class="user-name">justXeeZ</p>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li>/</li>
+					<li><a href="projects.html">Projects</a></li>
+					<li>/</li>
+					<li><a href="articles.html">Articles</a></li>
+					<li>/</li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+        <main id="contact">
+            <h1>Contact me</h1>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="jane doe" required>
+                <br>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="janedoe@example.com" required>
+                <br>
+                <br>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Hi!" required></textarea>
+                <br>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </main>
+        <footer><b>© all rights reserved 2025</b></footer>
+    </body>
+</html>

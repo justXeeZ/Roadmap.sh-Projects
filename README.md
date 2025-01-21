@@ -15,6 +15,8 @@ _please star this repo if it helped you :3_
 
 - [Basic HTML Website](https://github.com/justXeeZ/Roadmap.sh-Projects/tree/main/FrontEnd%20Projects/Basic%20HTML%20Website) _project on [roadmap.sh](https://roadmap.sh/projects/basic-html-website)_
 
+- [Personal Portfolio](https://github.com/justXeeZ/Roadmap.sh-Projects/tree/main/FrontEnd%20Projects/Personal%20Portfolio) _project on [roadmap.sh](https://roadmap.sh/projects/portfolio-website)_
+
 _these are links to solution projects on my github_
 
 ### Project Folders Contains:

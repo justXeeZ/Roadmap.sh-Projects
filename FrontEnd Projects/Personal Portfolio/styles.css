@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, footer, .div-image, #articles a, button{
+    font-family: "Indie Flower", sans-serif;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	background-color: white;
+	padding: 10px 20px;
+	top: 0;
+	left: 0;
+	z-index: 69;
+}
+
+.user-wrapper{
+	display: flex;
+	align-items: center;
+}
+
+.user-picture{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+	margin: 0 10px;
+	color: black;
+	border-bottom: 0px dashed black;
+	transition: margin ease-in-out 0.2s 0s;
+}
+
+nav a:hover {
+	margin: 0 20px;
+}
+
+.main-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	border-bottom: 2px solid black;
+}
+
+.main-section h1{
+	font-size: 3.5rem;
+}
+.main-section p{
+	color: gray;
+}
+
+.secondery-section{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2px;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+
+.mini-sec{
+	padding: 20px;
+}
+
+.projects-section{
+	flex-basis: 30%;
+	position: relative;
+}
+
+h2{
+	margin-bottom: 15px;
+}
+
+h3{
+	margin-bottom: 10px;
+}
+
+.projects-section ul{
+	list-style: none;
+}
+
+.projects-section li{
+	display: inline-block;
+	width: 100%;
+	transition: margin-left ease-in-out 0.2s 0s;
+}
+
+.projects-section li:hover{
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.work-section{
+	flex-basis: 40%;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.work-section p{
+	margin-bottom: 10px;
+}
+
+.border{
+	position: relative;
+	left: -20px;
+	width: calc(100% + 40px);
+	border: 1px solid black;
+	margin: 15px 0;
+}
+
+.work-section .border{
+	margin: 20px 0;
+}
+
+.education-section{
+	flex-basis: 30%;
+}
+
+.education-section p:last-of-type{
+	margin: 15px 0;
+}
+
+.education-section ul{
+	list-style: none;
+}
+
+.education-section li{
+	margin-bottom: 3px;
+}
+
+.education-section li::before{
+	content: "-";
+	margin-right: 5px;
+}
+
+.reviews-section{
+	padding: 20px;
+}
+
+.reviews-section div{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.reviews-section blockquote{
+	border: 2px solid black;
+	border-radius: 30px;
+	padding: 25px 15px;
+	margin: 12px;
+}
+
+blockquote p{
+	margin-bottom: 15px;
+}
+
+cite{
+	font-style: normal;
+	color: gray;
+}
+
+footer{
+	font-size: larger;
+	text-align: center;
+	margin: 60px 0;
+}
+
+#projects{
+	margin-top: 80px;
+	padding: 0 20px;
+}
+
+#projects section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#projects section > div{
+	flex-grow: 0.5;
+	flex-basis: 250px;
+	padding: 20px;
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 30px;
+	text-align: center;
+}
+
+.div-image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 150px;
+	border-radius: 20px;
+	background-color: lightgray;
+	margin-bottom: 10px;
+}
+
+#articles{
+	margin-top: 80px;
+	padding: 0 20px;
+}
+
+#articles div{
+	margin: 20px 0;
+}
+
+#articles a{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+
+#articles a:hover{
+	text-decoration: underline;
+}
+
+#articles p{
+	display: inline;
+}
+
+.date{
+	font-size: small;
+	color: gray;
+}
+
+#contact{
+	margin-top: 80px;
+	padding: 0 20px;
+}
+
+#contact label{
+	display: block;
+}
+
+#contact form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 2px solid black;
+	border-radius: 30px;
+	padding: 30px 20px;
+	width: 500px;
+	max-width: 100%;
+}
+
+input{
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+textarea{
+	height: 80px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+button{
+	font-weight: bold;
+	border-radius: 5px;
+	align-self: center;
+	width: 100%;
+	max-width: 120px;
+	border: 1px solid gray;
+	padding: 5px 10px;
+}
+
+button:hover{
+	cursor: pointer;
+	align-self: flex-start;
+}
+
+@media screen and (max-width: 699px) {
+	header {
+		flex-direction: column;
+	}
+	.user-wrapper{
+		margin-bottom: 10px;
+	}
+
+	#projects, #articles, #contact{
+		margin-top: 120px;
+	}
+
+	.secondery-section, .reviews-section div{
+		flex-direction: column;
+		border: none;
+		margin: 0;
+	}
+
+	.work-section{
+		border: none;
+	}
+
+	.projects-section{
+		padding-top: 1px;
+	}
+
+	.secondery-section h2, .reviews-section h2{
+		position: relative;
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+		background-color: #e9ecef;
+		padding: 10px 20px;
+		width: calc(100% + 40px);
+		left: -20px;
+	}
+}
