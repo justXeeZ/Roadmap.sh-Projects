@@ -1,4 +1,4 @@
-# Basic HTML Website
+# Personal Portfolio
 
 ## Preview of the project
 ![preview](/FrontEnd%20Projects/Personal%20Portfolio/preview.png)
