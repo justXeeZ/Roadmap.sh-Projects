@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+}
+
+.seperator{
+    color: lightgray;
+}
+
+.item{
+    position: relative;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.tooltip{
+    position: absolute;
+    width: max-content;
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 200%;
+}
+
+.tooltip::after{
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 18px;
+    height: 18px;
+    background-color: black;
+}
+
+.item:hover .tooltip{
+    visibility: visible;
+}
