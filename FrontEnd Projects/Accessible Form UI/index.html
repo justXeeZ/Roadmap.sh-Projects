@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Accessible Form UI</title>
+		<link rel="icon" href="https://roadmap.sh/images/brand-square.png" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<main>
+			<form action="#" method="POST">
+				<label for="name">Full Name</label>
+				<input aria-label="Enter your name" aria-required="true" type="text" id="name" placeholder="What should we call you?" required />
+				<label for="email">Email</label>
+				<input value="jane@doe.com" class="invalid-input" aria-label="Enter your email" aria-required="true" aria-invalid="true" type="email" id="email" placeholder="What's your email?" required />
+				<p class="warning">Email is already taken</p>
+
+				<label for="password" id="pass-label">Enter Password</label>
+				<div class="password-field">
+					<input aria-labelledby="pass-label" aria-required="true" type="password" id="password" placeholder="xxxxxxxx" required />
+					<button class="visibility" type="button">
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+					</button>
+				</div>
+
+				<label for="confirm-password" id="confirm-label">Confirm Password</label>
+				<div class="password-field">
+					<input aria-labelledby="confirm-label" aria-required="true" type="password" id="confirm-password" placeholder="xxxxxxxx" required />
+					<button class="visibility" type="button">
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+					</button>
+				</div>
+
+				<button class="submit" arie-label="Click to update your profile" type="submit">Update Profile</button>
+			</form>
+			<div class="progress-wrapper">
+				<div class="progress-bar">65%</div>
+				<p>Profile Completeness</p>
+				<ul>
+					<li class="finished">Create Account</li>
+					<li class="finished">Update Roadmap Progress</li>
+					<li class="finished">Setup Puplic Profile</li>
+					<li>Complete your first project</li>
+					<li>Invite your Friends</li>
+				</ul>
+			</div>
+		</main>
+	</body>
+</html>
