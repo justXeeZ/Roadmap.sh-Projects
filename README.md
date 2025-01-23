@@ -25,6 +25,8 @@ _please star this repo if it helped you :3_
 
 - [Accessible Form UI](https://github.com/justXeeZ/Roadmap.sh-Projects/tree/main/FrontEnd%20Projects/Accessible%20Form%20UI) _project on [roadmap.sh](https://roadmap.sh/projects/accessible-form-ui)_
 
+- [Image Grid Layout](https://github.com/justXeeZ/Roadmap.sh-Projects/tree/main/FrontEnd%20Projects/Image%20Grid%20Layout) _project on [roadmap.sh](https://roadmap.sh/projects/image-grid)_
+
 _these are links to solution projects on my github_
 
 ### Project Folders Contains:
