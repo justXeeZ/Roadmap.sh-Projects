@@ -18,12 +18,14 @@ main{
 
 .seperator{
     color: lightgray;
+    cursor: default;
 }
 
 .item{
     position: relative;
     font-size: 18px;
     margin: 0 10px;
+    cursor: default;
 }
 
 .tooltip{
