@@ -1,7 +1,7 @@
 # Image Grid Layout
 
 ## Preview of the project
-![preview](/FrontEnd%20Projects/Tooltip%20UI/preview.png)
+![preview](preview.png)
 
 ## Notes
 - This project was made for [Tooltip UI](https://roadmap.sh/projects/tooltip-ui) on [roadmap.sh](https://roadmap.sh)

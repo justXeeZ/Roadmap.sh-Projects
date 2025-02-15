@@ -1,7 +1,7 @@
 # Accessible Form UI
 
 ## Preview of the project
-![preview](/FrontEnd%20Projects/Accessible%20Form%20UI/preview.png)
+![preview](preview.png)
 
 ## Notes
 - This project was made for [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui) on [roadmap.sh](https://roadmap.sh)

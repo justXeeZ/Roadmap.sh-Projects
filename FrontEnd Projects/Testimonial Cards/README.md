@@ -1,7 +1,7 @@
 # Testimonial Cards
 
 ## Preview of the project
-![preview](/FrontEnd%20Projects/Testimonial%20Cards/preview.png)
+![preview](preview.png)
 
 ## Notes
 - This project was made for [Changelog Component](https://roadmap.sh/projects/testimonial-cards) on [roadmap.sh](https://roadmap.sh)

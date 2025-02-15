@@ -1,7 +1,7 @@
 # Datepicker UI
 
 ## Preview of the project
-![preview](/FrontEnd%20Projects/Datepicker%20UI/preview.png)
+![preview](preview.png)
 
 ## Notes
 - This project was made for [Datepicker UI](https://roadmap.sh/projects/datepicker-ui) on [roadmap.sh](https://roadmap.sh)

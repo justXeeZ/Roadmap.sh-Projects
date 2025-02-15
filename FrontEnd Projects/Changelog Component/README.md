@@ -1,7 +1,7 @@
 # Changelog Component
 
 ## Preview of the project
-![preview](/FrontEnd%20Projects/Changelog%20Component/preview.png)
+![preview](preview.png)
 
 ## Notes
 - This project was made for [Changelog Component](https://roadmap.sh/projects/changelog-component) on [roadmap.sh](https://roadmap.sh)

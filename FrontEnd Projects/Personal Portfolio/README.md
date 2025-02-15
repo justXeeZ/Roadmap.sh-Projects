@@ -1,7 +1,7 @@
 # Personal Portfolio
 
 ## Preview of the project
-![preview](/FrontEnd%20Projects/Personal%20Portfolio/preview.png)
+![preview](preview.png)
 
 ## Notes
 - This project was made for [Personal Portfolio](https://roadmap.sh/projects/portfolio-website) on [roadmap.sh](https://roadmap.sh)

@@ -1,7 +1,7 @@
 # Basic HTML Website
 
 ## Preview of the project
-![preview](/FrontEnd%20Projects/Basic%20HTML%20Website/preview.png)
+![preview](preview.png)
 
 ## Notes
 - This project was made for [Basic HTML Website](https://roadmap.sh/projects/basic-html-website) on [roadmap.sh](https://roadmap.sh)

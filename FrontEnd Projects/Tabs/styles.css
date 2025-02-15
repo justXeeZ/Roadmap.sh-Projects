@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+
+.container{
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tabSwitch{
+    color: grey;
+    margin-right: 10px;
+    padding: 0 8px 8px 8px;
+    cursor: pointer;
+}
+
+.activeSwitch{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.tabContent{
+    display: none;
+}
+
+.activeContent{
+    display: block;
+}
+
+.imageDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+p{
+    margin: 5px 0;
+}

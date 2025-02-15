@@ -1,7 +1,7 @@
 # Single-Page CV
 
 ## Preview of the project
-![preview](/FrontEnd%20Projects/Single-Page%20CV/preview.png)
+![preview](preview.png)
 
 ## Notes
 - This project was made for [Single-Page CV](https://roadmap.sh/projects/single-page-cv) on [roadmap.sh](https://roadmap.sh)
